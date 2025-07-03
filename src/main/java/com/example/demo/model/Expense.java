@@ -1,9 +1,9 @@
-THIS SHOULD BE A LINTER ERRORpackage com.example.demo.model;
+package com.example.demo.model;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Positive;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
 import java.time.LocalDateTime;
 
 @Entity
